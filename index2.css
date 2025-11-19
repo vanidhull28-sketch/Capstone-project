@@ -1,0 +1,447 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box;
+    overflow-x: hidden;*/
+} 
+.main{
+    width: 100%;
+    background: linear-gradient(to top , rgb(255, 255, 255)50% ,rgb(255, 255, 255)50% );
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.space{
+    background-color: rgb(144, 217, 243);
+    text-align: center;
+    font-size:large;
+    font-family: "Oswald", "Roboto", sans-serif;
+    height: 30px;
+    width: 100%;
+    padding-top: 3px;
+    font-style: italic;
+}
+.navbar{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-right: 40px;
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: black;
+}
+
+.top{ position:sticky;
+    top: 0;
+    z-index: 5;}
+
+.nav{
+    background-color: rgb(183, 232, 250);
+    height:70px ;
+    display: flex;
+}
+.nav img{
+    margin-left: 3px;
+    margin-right: 20px;
+}
+
+.post{
+    display: flex;
+    height: 400px;
+    background-image: url(POST.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+}
+.search-bar{
+    width: 400px;
+    height: 30px;
+    align-content: center;
+    padding-top: 20px;
+    
+}
+.search-bar input{
+    height: 25px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid rgb(4, 16, 86);
+    
+    position:absolute;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.search-bar button{
+    height: 28px;
+    width: 28px;
+    border:2px solid rgb(4, 16, 86);
+    border-radius: 5px;
+    position:absolute;
+    margin-left: 320px;
+    margin-top: -10px;
+    text-align: center;
+    padding: 0px;
+    
+}
+
+.shoes{
+    display: grid;
+    grid-template-columns: repeat(4, 350px);
+    grid-template-rows: repeat(3, 500px);
+    gap: 5px;
+    margin: 0px;
+}
+span{
+    color:rgba(20, 19, 19, 0.612);
+}
+#one{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://redtape.com/cdn/shop/files/RSO2835_15.jpg?v=1756809360);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+    
+    
+}
+#one1{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+}
+#two{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://static.nike.com/a/images/t_web_pdp_936_v2/f_auto,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b0aecb4c-3e97-4080-a944-dcbd89af7ee7/WMNS+AIR+JORDAN+1+RETRO+HI+OG.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+}
+#two2{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+
+}
+
+#three{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://media.gq.com/photos/671babce114b2963e6df6496/3:4/w_748%2Cc_limit/nike8.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+}
+#three3{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+}
+#four{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://media.istockphoto.com/id/1303978937/photo/white-sneaker-on-a-blue-gradient-background-mens-fashion-sport-shoe-sneakers-lifestyle.jpg?s=612x612&w=0&k=20&c=L725fuzFTnm6qEaqE7Urc5q6IR80EgYQEjBn_qtBIQg=);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+}
+#four4{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+}
+#five{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/cbd90f0d-55d0-4e09-b093-1be3782b8522/W+NIKE+STRUCTURE+26.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+}
+#five5{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+}
+#six{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://assets.myntassets.com/w_412,q_30,dpr_3,fl_progressive,f_webp/assets/images/30167702/2024/7/10/db69ccb0-8406-4381-b713-c2956b1371701720599361088ASICSGEL-NIMBUS26MenTexturedRunningSportsShoes1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+}
+#six6{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+}
+
+#seven{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://images-cdn.ubuy.co.in/66ad18119ba3901f6533a2f6-asics-oc-runner-mens-retro-classic.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+}
+#seven7{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+}
+#eight{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://m.media-amazon.com/images/I/91CASJoFS+L.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+}
+#eight8{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+}
+#nine{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://assets.myntassets.com/w_412,q_30,dpr_3,fl_progressive,f_webp/assets/images/30167708/2024/7/10/7f53f8b8-a708-4edb-a6f1-b5f9800311ab1720599378076ASICSGEL-NIMBUS26MenTexturedRunningSportsShoes1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+}
+#nine9{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+}
+#ten{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://www.asics.co.in/media/catalog/product/1/0/1011b794_004_sr_rt_glb-base.jpg?optimize=high&bg-color=255,255,255&fit=bounds&height=&width=);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+}
+#ten10{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+}
+#eleven{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC2oM_y77tNY22T55si5UpVYQBEAwRFwKEmA&s);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+}
+#eleven11{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+}
+#twelve{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://rukminim2.flixcart.com/image/480/640/xif0q/shoe/e/b/q/-original-imah4a4ghymj6nzp.jpeg?q=90);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+}
+#twelve12{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+}
+#footer{
+    width: 1500px;
+    background-color: rgb(235, 232, 232,20%);
+    text-align: left;
+    justify-content: center;
+    height: auto;
+    margin-top: 200px;
+}
+
+.foot1{
+    text-align: center;
+    margin-top: 50px;
+}
+button{
+    padding: 10px;
+    margin: 10px;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: white;
+    border:2px solid #38a3b8;
+    box-shadow: 3px 3px 5px #38a3b8;
+
+}
