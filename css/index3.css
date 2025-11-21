@@ -1,0 +1,465 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box;
+    overflow-x: hidden;*/
+} 
+.main{
+    width: 100%;
+    background: linear-gradient(to top , rgb(255, 255, 255)50% ,rgb(255, 255, 255)50% );
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.space{
+    background-color: rgb(144, 217, 243);
+    text-align: center;
+    font-size:large;
+    font-family: "Oswald", "Roboto", sans-serif;
+    height: 30px;
+    width: 100%;
+    padding-top: 3px;
+    font-style: italic;
+}
+.navbar{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-right: 40px;
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: black;
+}
+
+.top{ position:sticky;
+    top: 0;
+    z-index: 5;}
+
+.nav{
+    background-color: rgb(183, 232, 250);
+    height:70px ;
+    display: flex;
+}
+.nav img{
+    margin-left: 3px;
+    margin-right: 20px;
+}
+
+.bag1{
+    display: flex;
+    height: 400px;
+    background-image: url(../BAG1.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+}
+.Home a{
+    margin: 20px;
+    color: rgb(29, 105, 156);
+    font-weight: bold;
+    font-size: large;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+
+}
+.Home{
+    padding: 5px;
+}
+.Home :hover{
+    color: rgb(194, 86, 202);
+}
+.Search-Bar{
+    width: 400px;
+    height: 30px;
+    align-content: center;
+    padding-top: 20px;
+    
+}
+.Search-Bar input{
+    height: 25px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid rgb(4, 16, 86);
+    
+    position:absolute;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.Search-Bar button{
+    height: 28px;
+    width: 28px;
+    border:2px solid rgb(4, 16, 86);
+    border-radius: 5px;
+    position:absolute;
+    margin-left: 320px;
+    margin-top: -10px;
+    text-align: center;
+    padding: 0px;
+    
+}
+
+.bags{
+    display: grid;
+    grid-template-columns: repeat(4, 350px);
+    grid-template-rows: repeat(3, 500px);
+    gap: 5px;
+    margin: 0px;
+}
+span{
+    color:rgba(20, 19, 19, 0.612);
+}
+#one{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://craftandglory.in/cdn/shop/files/SON000021.jpg?v=1711024390&width=1946);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+    
+    
+}
+#one1{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+}
+#two{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://nwscdn.com/media/catalog/product/cache/h900xw900/b/l/black_vermont_24_racket_tennis_bag_made_using_600d_polyester_oxford_fabric_5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+}
+#two2{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+
+}
+
+#three{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_2000,h_2000/global/092548/01/mod01/fnd/IND/fmt/png/PHASE-Small-Sports-Bag);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+}
+#three3{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+}
+#four{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://adventureworx.in/wp-content/uploads/2024/02/athletic-sports-backpack-35l-black-2-1-1000x1500.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+}
+#four4{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+}
+#five{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://prokicksports.com/cdn/shop/files/LningABSS283-41.jpg?v=1697523671);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+}
+#five5{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+}
+#six{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/81e4b18d-a520-4a0c-a86c-2c28ffe84d91/NK+BRSLA+S+DUFF+-+9.5+%2841L%29.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+}
+#six6{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+}
+
+#seven{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://m.media-amazon.com/images/I/71qa-QAznVL._AC_UY1100_.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+}
+#seven7{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+}
+#eight{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://www.fjern.equipment/cdn/shop/products/fjern-fordra-40l-duffle-bag-petrol-9.jpg?crop=center&height=1000&v=1692012898&width=1000);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+}
+#eight8{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+}
+#nine{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI42Yhl7NMwonw5nR1AotbuovmpGlhlKcU8A&s);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+}
+#nine9{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+}
+#ten{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://m.media-amazon.com/images/I/91iWarzCceL._AC_UY1100_.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+}
+#ten10{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+}
+#eleven{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://assets.ajio.com/medias/sys_master/root/20230321/jDtq/6419baf4aeb26924e3e79c1c/-473Wx593H-465946368-purple-MODEL.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+}
+#eleven11{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+}
+#twelve{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://assets.myntassets.com/dpr_1.5,q_30,w_400,c_limit,fl_progressive/assets/images/29970732/2025/4/29/a15e9a61-fcb0-4aab-b19a-6d60ecbf6df51745907213630-WROGN-Kangaroo-Hard-Cabin-Trolley-Suitcase---38L-86317459072-7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+}
+#twelve12{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+}
+#footer{
+    width: 1500px;
+    background-color: rgb(235, 232, 232,20%);
+    text-align: left;
+    justify-content: center;
+    height: auto;
+    margin-top: 200px;
+    padding-top:20px ;
+    padding-left:10px ;
+}
+
+.foot1{
+    text-align: center;
+    margin-top: 50px;
+}
+button{
+    padding: 10px;
+    margin: 10px;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: white;
+    border:2px solid #38a3b8;
+    box-shadow: 3px 3px 5px #38a3b8;
+
+}

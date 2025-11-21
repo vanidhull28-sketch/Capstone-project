@@ -1,0 +1,621 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top , rgb(255, 255, 255)50% ,rgb(255, 255, 255)50% );
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.space{
+    background-color: rgb(144, 217, 243);
+    text-align: center;
+    font-size:large;
+    font-family: "Oswald", "Roboto", sans-serif;
+    height: 30px;
+    width: 100%;
+    padding-top: 3px;
+    font-style: italic;
+    
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-right: 40px;
+    font-style: italic;
+    
+    
+}
+
+.top{ position:sticky;
+    top: 0;
+    z-index: 5;}
+
+.nav{
+    background-color: rgb(183, 232, 250);
+    height:70px ;
+    display: flex;
+}
+.nav img{
+    margin-left: 3px;
+    margin-right: 20px;
+}
+.search-Bar{
+    width: 400px;
+    height: 30px;
+    align-content: center;
+    padding-top: 20px;
+    
+    
+}
+.search-Bar input{
+    height: 25px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid rgb(4, 16, 86);
+    
+    position:absolute;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.search-Bar button{
+    height: 28px;
+    width: 28px;
+    border:2px solid rgb(4, 16, 86);
+    border-radius: 5px;
+    position:absolute;
+    margin-left: 320px;
+    margin-top: -10px;
+    text-align: center;
+    padding: 0px;
+    
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-left: 160px;
+    justify-content: space-between;
+    margin-right: 10px;
+    }
+.icons i{
+    font-size: 30px;
+    color: #00000000;
+}
+
+.poster{
+    background-color: rgb(255, 255, 255);
+    height: 750px;
+    width: 98.5%;
+    margin-top: 80px;
+    margin-left: 10px;
+    /* margin-right: -90px; */
+    padding-top: 0;
+    padding-bottom: 0;
+    border: 2px solid black;
+    position: absolute;
+    
+}
+
+.bg-video{
+    width: 60%;
+    height: 100%;
+    object-fit: cover;        /* Crops to fill the screen */
+    z-index: -1;
+}
+
+.shop-now{
+    background-color: rgb(175, 220, 228);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    position: absolute;
+    top: 90%;
+    left: 65%;
+    transform: translate(200%, -50%);
+    padding: 5px 10px;
+    font-size: 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: solid underline;
+    text-align:right;
+    font-size: smaller;
+
+}
+.SALE{
+    position: absolute;
+    top: 0%;
+    left: 62.2%;
+    width: 560px;
+    height: 100%;
+    margin-left: 30px;
+}
+
+.cateogaries{
+    width: 100%;
+    background: linear-gradient(to top , rgb(255, 255, 255)50% ,rgb(255, 255, 255)50% );
+    /* background-image: url(background.png); */
+    background-position: center;
+    background-size: cover;
+    height: 1100px;
+    margin-top: 10px;
+    
+    
+}
+
+.New{
+    display: flex;
+    height: 300px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://bersache.com/cdn/shop/files/001_dcb57192-6923-4702-af47-ff0e7b9a33e8.jpg?v=1754654149&width=1080);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+
+}
+.shop-now-btn{
+    background-color: #38a3b8;
+    padding: 4px;
+    margin-top: 4px;
+    color: white;
+    border: none;
+    
+
+}
+
+.arrival:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.02);
+    cursor: pointer;
+    
+}
+.New:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.05);
+    cursor: pointer;
+    background-image:url(https://redtape.com/cdn/shop/files/RSO2835_15.jpg?v=1756809360);
+}
+.arrival{
+    box-shadow: 10px 5px 5px #38a3b8;
+    border: 1px solid black;
+    width: 300px;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.top1{
+    display: flex;
+    height: 300px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image:url(https://images.ottplay.com/webstories/wp-content/uploads/2023/09/BTS-V-13.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+
+}
+
+
+.Special:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.02);
+    cursor: pointer;
+    
+}
+.top1:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.05);
+    cursor: pointer;
+    background-image:url(https://img.freepik.com/free-photo/portrait-smiling-woman-outdoors-with-beanie_23-2149256265.jpg?semt=ais_incoming&w=740&q=80);
+}
+.Special{
+    box-shadow: 10px 5px 5px #38a3b8;
+    border: 1px solid black;
+    width: 300px;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin-left: 390px;
+    margin-top: -485px;
+}
+
+.Swimming{
+    display: flex;
+    height: 300px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0424/2604/0487/files/5_essential_swimming_skills_600x600.png?v=1607682480);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+
+}
+
+
+.Swim:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.02);
+    cursor: pointer;
+    
+}
+.Swimming:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.05);
+    cursor: pointer;
+    background-image:url(https://hips.hearstapps.com/hmg-prod/images/fit-swimmer-training-in-the-pool-royalty-free-image-1568376630.jpg?crop=0.662xw:0.992xh;0.158xw,0&resize=980:*);
+}
+.Swim{
+    box-shadow: 10px 5px 5px #38a3b8;
+    border: 1px solid black;
+    width: 300px;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin-left: 750px;
+    margin-top: -485px;
+}
+
+.Running{
+    display: flex;
+    height: 300px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://hips.hearstapps.com/hmg-prod/images/running-track-1667904802.jpg?crop=0.668xw:1.00xh;0.0714xw,0&resize=640:*);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+
+}
+
+
+
+.Run:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.02);
+    cursor: pointer;
+    
+}
+.Running:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.05);
+    cursor: pointer;
+    background-image: url(https://media.istockphoto.com/id/489304976/photo/african-woman-running-on-racetrack.jpg?s=612x612&w=0&k=20&c=2-4n6DEZEHpPydLowozoEzgu9AEasvbqNdbdYGMIlwY=);
+}
+.Run{
+    box-shadow: 10px 5px 5px #38a3b8;
+    border: 1px solid black;
+    width: 300px;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin-left: 1120px;
+    margin-top: -485px;
+}
+
+
+.Training{
+    display: flex;
+    height: 300px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://cdn.betterme.world/articles/wp-content/uploads/2020/03/3-Full-Body-Workouts-for-Men-to-Build-Muscle-and-Burn-Fat-1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+
+}
+
+
+.Train:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.02);
+    cursor: pointer;
+    
+}
+.Training:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.05);
+    cursor: pointer;
+    background-image:url(https://cdn.muscleandstrength.com/sites/default/files/styles/800x500/public/fit_woman_doing_a_dumbbell_lunge_in_the_gym.jpg?itok=G3wyY5Is);
+}
+.Train{
+    box-shadow: 10px 5px 5px #38a3b8;
+    border: 1px solid black;
+    width: 300px;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+
+.Active{
+    display: flex;
+    height: 300px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://www.rockit.co.in/cdn/shop/collections/Men_s_Short_400x.jpg?v=1705560070);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+
+}
+
+
+.Active1:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.02);
+    cursor: pointer;
+    
+}
+.Active:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.05);
+    cursor: pointer;
+    background-image:url(https://img.freepik.com/free-photo/active-slim-woman-with-curly-hair-raises-leg-warms-up-before-fitness-workout-dressed-activewear-sneakers-listens-audio-track-via-headphones-focused-down-poses-against-urban-city-building_273609-59912.jpg?semt=ais_hybrid&w=740&q=80);
+}
+.Active1{
+    box-shadow: 10px 5px 5px #38a3b8;
+    border: 1px solid black;
+    width: 300px;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin-left: 390px;
+    margin-top: -485px;
+}
+
+
+.Bag{
+    display: flex;
+    height: 300px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://58v76y8z87lo.hellomagazine.com/horizon/landscape/bff8afe9657c-best-gym-bags.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+
+}
+
+
+.Bag1:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.02);
+    cursor: pointer;
+    
+}
+.Bag:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.05);
+    cursor: pointer;
+    background-image:url(https://www.krimcode.com/wp-content/uploads/2021/12/Krimcode-Sport-Attire-KSTL02-1N0SM-_MG_5851-scaled.jpg);
+}
+.Bag1{
+    box-shadow: 10px 5px 5px #38a3b8;
+    border: 1px solid black;
+    width: 300px;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin-left: 750px;
+    margin-top: -485px;
+}
+
+
+.inner{
+    display: flex;
+    height: 300px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://www.nzherald.co.nz/resizer/v2/OILIXK6CDNGRPO6U3FPVQEXHFU.jpg?auth=4bf44d3e5389e0b37d92b400be878bb542651be542db974b9e1ad0f51b5d875b&width=576&height=613&quality=70&focal=4027%2C2339&smart=false);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+
+}
+
+.Inner1:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.02);
+    cursor: pointer;
+    
+}
+.inner:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.05);
+    cursor: pointer;
+    background-image:url(https://www.luxuryformen.com/media/catalog/category/Luxury_For_Men_Sport_Underwear_Men2.jpg);
+}
+.Inner1{
+    box-shadow: 10px 5px 5px #38a3b8;
+    border: 1px solid black;
+    width: 300px;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin-left: 1120px;
+    margin-top: -485px;
+}
+
+.footer{
+    /* background-image: url(background.png); */
+    background-position: center;
+    background-size: cover;     
+    height: 109vh;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 0px;
+    font-family: "Oswald", "Roboto", sans-serif;
+    font-size: large;
+    font-weight: bold;
+    position: relative;
+    bottom: 0px;
+    
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 0px;
+    height: 80px;
+    background-color: rgb(183, 232, 250,20%);
+    color: black;
+    align-items: center;
+    margin-top: 100px;
+    text-decoration: underline;
+    font-weight: lighter;
+}
+.foot a:hover{
+    color: rgb(214, 44, 44);
+    font-size: medium;
+}
+.foot1{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 0px;
+    height: 50px;
+    background-color: rgb(183, 232, 250,20%);
+    color: rgb(0, 0, 0);
+    align-items: center;
+    font-weight: lighter;
+    
+}
+.foot1 a:hover{
+    color: rgb(27, 32, 186);
+    font-size: medium;
+    text-decoration: wavy;
+}
+.foot2{
+    margin-top: 0px;
+    height: 300px;
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    font-family: "Oswald", "Roboto", sans-serif;
+    background-color: rgb(183, 232, 250,20%);
+    padding: 30px;
+    text-align: left;
+    padding-top: 20px;
+    font-size: larger;
+    font-weight:lighter;
+}
+p{
+    font-size: medium;
+}
+h3{
+    font-family: "Oswald", "Roboto", sans-serif;
+    text-align: center;
+}
+h5{
+    font-family: "Oswald", "Roboto", sans-serif;
+    text-align: left;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+.foot3{
+    background-color: rgb(183, 232, 250,20%);
+    color: rgb(0, 0, 0);
+    height: 50px;
+    padding-top: 15px;
+    margin-top: -20px;
+    font-size: medium;
+    height: 200px;
+    text-decoration: underline;
+    font-weight: lighter;
+    margin-top: 0px;
+}
+.foot4{
+    height: 60px;
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    font-family: "Oswald", "Roboto", sans-serif;
+    background-color: rgb(183, 232, 250,20%);
+    padding: 30px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: larger;
+    font-weight: lighter;
+    margin-bottom: 0px;
+}
+
+.explore-btn{
+    background-color: #38a3b8;
+    position: relative;
+    padding: 20px;
+    bottom: -35px;
+    margin-left: 50px;  
+    font-size: larger; 
+    border-radius: 8px;
+    border: none;
+    color: white;
+}
+
+.kids{
+    background-color: #38a3b8;
+    padding: 15px;
+    position: relative;
+    bottom:-35px;
+    margin-left:500px;
+    font-size: larger; 
+    border-radius: 8px;
+    border: none;
+    color: white;
+}
+.next{
+    position: relative;
+    bottom: 20px;
+    background-color: #38a3b8;
+    padding: 15px;
+    margin-left: 1300px;
+    font-size: larger; 
+    border-radius: 8px;
+    border: none;
+    color: white;
+}
