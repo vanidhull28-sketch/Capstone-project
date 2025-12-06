@@ -59,7 +59,7 @@
 .post{
     display: flex;
     height: 400px;
-    background-image: url(../POST.png);
+    background-image: url(/images/POST.png);
     background-repeat: repeat;
     background-position: center;
     background-size: contain;

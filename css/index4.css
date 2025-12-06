@@ -1,0 +1,464 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box;
+    overflow-x: hidden;*/
+} 
+.main{
+    width: 100%;
+    background: linear-gradient(to top , rgb(255, 255, 255)50% ,rgb(255, 255, 255)50% );
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.space{
+    background-color: rgb(144, 217, 243);
+    text-align: center;
+    font-size:large;
+    font-family: "Oswald", "Roboto", sans-serif;
+    height: 30px;
+    width: 100%;
+    padding-top: 3px;
+    font-style: italic;
+}
+.navbar{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-right: 40px;
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: black;
+}
+
+.top{ position:sticky;
+    top: 0;
+    z-index: 5;}
+
+.nav{
+    background-color: rgb(183, 232, 250);
+    height:70px ;
+    display: flex;
+}
+.nav img{
+    margin-left: 3px;
+    margin-right: 20px;
+}
+
+.bag1{
+    display: flex;
+    height: 400px;
+    background-image: url(/images/cover1.png);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+}
+.Home a{
+    margin: 20px;
+    color: rgb(29, 105, 156);
+    font-weight: bold;
+    font-size: large;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+
+}
+.Home{
+    padding: 5px;
+}
+.Home :hover{
+    color: rgb(194, 86, 202);
+}
+.Search-Bar{
+    width: 400px;
+    height: 30px;
+    align-content: center;
+    padding-top: 20px;
+    
+}
+.Search-Bar input{
+    height: 25px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid rgb(4, 16, 86);
+    
+    position:absolute;
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.Search-Bar button{
+    height: 28px;
+    width: 28px;
+    border:2px solid rgb(4, 16, 86);
+    border-radius: 5px;
+    position:absolute;
+    margin-left: 320px;
+    margin-top: -10px;
+    text-align: center;
+    padding: 0px;
+    
+}
+
+.bags{
+    display: grid;
+    grid-template-columns: repeat(4, 350px);
+    grid-template-rows: repeat(3, 500px);
+    gap: 5px;
+    margin: 0px;
+}
+span{
+    color:rgba(20, 19, 19, 0.612);
+}
+#one{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/d98c9df3-a812-4307-8156-93a4e92e0171/AS+W+NK+24.7+DF+HZ+TOP+SOFT.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+    
+    
+}
+#one1{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+}
+#two{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/341fb0d6-a3c1-442a-8324-a3d48257a833/AS+W+NK+DF+ONE+HR+FLDOVR+PANT.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+}
+#two2{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+
+}
+
+#three{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/af21468b-0bca-47b7-91fd-8f21d199c16f/AS+W+NK+ONE+CLASSIC+DF+SS+TOP.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+}
+#three3{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+}
+#four{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/bd597e3e-a59c-47f6-96af-f09d09f6328b/AS+W+NK+DF+ZENVY+HR+FLARE.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+}
+#four4{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+}
+#five{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/94db5519-b2e2-4371-aa42-3342b774bf29/AS+W+NK+DF+UNVRSA+MS+BRA.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+}
+#five5{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+}
+#six{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/56d69ce2-dafa-4c82-a7d8-86383916df59/AS+W+NK+DF+ZENVY+HR+5IN+SHORT.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+}
+#six6{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+}
+
+#seven{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/ca7de6b4-0620-4322-beb1-affd58cd36ae/AS+W+NP+DF+TANK+ELASTIKA.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+}
+#seven7{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+}
+#eight{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/bf4a3778-e281-4db9-b9bb-945e1063049c/AS+W+NK+ONE+DF+MR+3IN+2N1+SRT.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+}
+#eight8{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+}
+#nine{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/1c646497-5116-4f7b-963d-4aad40741a50/AS+W+NK+24.7+DF+HZ+TOP+SOFT.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+}
+#nine9{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+}
+#ten{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/7b667e25-a13d-411f-96a8-1cd3cf4042dc/AS+W+NK+DF+UNVRSA+2IN1+SHORT.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+}
+#ten10{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+}
+#eleven{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/63b80b5b-c1f1-42b5-aa10-7d3de090cba1/AS+W+NK+24.7+DF+MR+JOGGER+SOFT.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+}
+#eleven11{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+}
+#twelve{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 20px;
+    background-image: url(https://static.nike.com/a/images/t_web_pw_592_v2/f_auto/2cff2716-831f-44ac-878a-005de6df9775/AS+W+NK+DF+ONE+HR+TIGHT+PE.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid rgb(49, 166, 181);
+    box-shadow: 3px 2px 3px #38a3b8 ;
+}
+#twelve12{
+    text-align: left;
+    align-items: center;
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    justify-content: end;
+    text-align: left;
+    padding: 10px;
+    margin-left: 40px;
+    margin-top: 30px;
+    box-shadow: 10px 5px 5px #38a3b8;
+}
+#footer{
+    width: 1500px;
+    background-color: rgb(235, 232, 232,20%);
+    text-align: left;
+    justify-content: center;
+    height: auto;
+    margin-top: 200px;
+    padding-top:20px ;
+    padding-left:10px ;
+}
+
+.foot1{
+    text-align: center;
+    margin-top: 50px;
+}
+button{
+    padding: 10px;
+    margin: 10px;
+    font-size: larger;
+    font-weight: bolder;
+    background-color: white;
+    border:2px solid #38a3b8;
+    box-shadow: 3px 3px 5px #38a3b8;
+
+}
